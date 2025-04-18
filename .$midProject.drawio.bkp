@@ -1,6 +1,6 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Page-1" id="1xVnO6OTS2RvEFYM70UW">
-    <mxGraphModel dx="2987" dy="3630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5406" dy="4894" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-6" value="Student" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="1620" y="-180" width="220" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="vWdL1QEMe_n-aXKPp4n5-7" value="&lt;p&gt;- className: String          &lt;/p&gt;&lt;p&gt;- faculty: String           &lt;/p&gt;&lt;p&gt;- academicYear: String      &lt;/p&gt;&lt;p&gt;- grade: Grade&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- enrolledCourses: List&amp;lt;Course&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- submissions: List&amp;lt;Submission&amp;gt;&lt;/p&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-6" vertex="1">
+        <mxCell id="vWdL1QEMe_n-aXKPp4n5-7" value="&lt;p&gt;- className: String          &lt;/p&gt;&lt;p&gt;- faculty: String           &lt;/p&gt;&lt;p&gt;- academicYear: String      &lt;/p&gt;&lt;p&gt;- gpa: double                &lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;- enrolledCourses: List&amp;lt;Course&amp;gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;- submissions: List&amp;lt;Submission&amp;gt;&lt;/p&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-6" vertex="1">
           <mxGeometry y="26" width="220" height="224" as="geometry" />
         </mxCell>
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-8" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-6" vertex="1">
@@ -120,7 +120,7 @@
           <mxGeometry y="178" width="380" height="250" as="geometry" />
         </mxCell>
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-42" value="VideoMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="-2580" width="380" height="478" as="geometry" />
+          <mxGeometry x="-1800" y="-2620" width="380" height="478" as="geometry" />
         </mxCell>
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-43" value="&lt;p&gt;- storageIdentifier: String  // Key hoặc đường dẫn định danh file video&lt;/p&gt;&lt;p&gt;- fileSize: long             // Kích thước file (bytes)&lt;/p&gt;&lt;p&gt;- mimeType: String           // Loại MIME (VD: &quot;video/mp4&quot;)&lt;/p&gt;&lt;p&gt;- duration: int              // Thời lượng video (giây) {optional}&lt;/p&gt;&lt;p&gt;- originalFileName: String   // Tên file gốc lúc upload {optional}&lt;/p&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-42" vertex="1">
           <mxGeometry y="26" width="380" height="164" as="geometry" />
@@ -132,7 +132,7 @@
           <mxGeometry y="198" width="380" height="280" as="geometry" />
         </mxCell>
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-51" value="LinkMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="-2930" width="380" height="250" as="geometry" />
+          <mxGeometry x="-1800" y="-3010" width="380" height="250" as="geometry" />
         </mxCell>
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-52" value="- url: String                // Địa chỉ URL của liên kết ngoài&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-51" vertex="1">
           <mxGeometry y="26" width="380" height="26" as="geometry" />
@@ -143,11 +143,12 @@
         <mxCell id="vWdL1QEMe_n-aXKPp4n5-54" value="&lt;p&gt;+ getUrl(): String&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;// Override:&lt;/p&gt;&lt;p&gt;+ displayContent(): void   // Mở liên kết [url]&lt;/p&gt;&lt;p&gt;+ toString(): String&lt;/p&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="vWdL1QEMe_n-aXKPp4n5-51" vertex="1">
           <mxGeometry y="60" width="380" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="vWdL1QEMe_n-aXKPp4n5-59" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;shadow=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1;exitX=1.006;exitY=0.453;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="vWdL1QEMe_n-aXKPp4n5-43" target="vWdL1QEMe_n-aXKPp4n5-35" edge="1">
+        <mxCell id="vWdL1QEMe_n-aXKPp4n5-59" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=1;exitX=0.997;exitY=0.694;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;shadow=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=none;fontColor=default;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1;exitPerimeter=0;" parent="1" source="vWdL1QEMe_n-aXKPp4n5-43" target="vWdL1QEMe_n-aXKPp4n5-35" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-1390" y="-2480" as="sourcePoint" />
+            <mxPoint x="-1240" y="-1700" as="sourcePoint" />
             <mxPoint x="-960" y="-1882" as="targetPoint" />
             <Array as="points">
+              <mxPoint x="-1419" y="-2480" />
               <mxPoint x="-1260" y="-2480" />
               <mxPoint x="-1260" y="-1882" />
             </Array>
@@ -158,7 +159,8 @@
             <mxPoint x="-1130" y="-1910" as="sourcePoint" />
             <mxPoint x="-540" y="-2180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1130" y="-2890" />
+              <mxPoint x="-1420" y="-2970" />
+              <mxPoint x="-1130" y="-2970" />
               <mxPoint x="-1130" y="-1920" />
             </Array>
             <mxPoint as="offset" />
@@ -177,7 +179,7 @@
           <mxGeometry y="418" width="500" height="1072" as="geometry" />
         </mxCell>
         <mxCell id="1Us1vHDmU4Xr6gR4mbqY-7" value="TextMaterial" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="-1590" width="380" height="228" as="geometry" />
+          <mxGeometry x="-1800" y="-1290" width="380" height="228" as="geometry" />
         </mxCell>
         <mxCell id="1Us1vHDmU4Xr6gR4mbqY-8" value="- content: String            // Nội dung văn bản (có thể là HTML/Markdown)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;shadow=1;labelBackgroundColor=none;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="1Us1vHDmU4Xr6gR4mbqY-7" vertex="1">
           <mxGeometry y="26" width="380" height="44" as="geometry" />
@@ -206,7 +208,7 @@
         <mxCell id="1Us1vHDmU4Xr6gR4mbqY-13" value="Lesson" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;" parent="1" vertex="1">
           <mxGeometry x="-140" y="-1980" width="490" height="890" as="geometry" />
         </mxCell>
-        <mxCell id="1Us1vHDmU4Xr6gR4mbqY-14" value="&lt;p&gt;- lessonId: String           &lt;/p&gt;&lt;p&gt;- title: String             &lt;/p&gt;&lt;p&gt;- description: String        &lt;/p&gt;&lt;p&gt;- order: int                 // Thứ tự hiển thị của Bài học trong Module&lt;/p&gt;&lt;p&gt;- isPublished: boolean&amp;nbsp;&lt;/p&gt;&lt;p&gt;- materials: List&amp;lt;Material&amp;gt;  // Danh sách các Tài liệu học tập (Material) thuộc Bài học này&lt;/p&gt;&lt;p&gt;- mainVideo : VideoMaterial&lt;/p&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="1Us1vHDmU4Xr6gR4mbqY-13" vertex="1">
+        <mxCell id="1Us1vHDmU4Xr6gR4mbqY-14" value="&lt;div&gt;&lt;p&gt;- lessonId: String           &lt;/p&gt;&lt;p&gt;- title: String             &lt;/p&gt;&lt;p&gt;- description: String        &lt;/p&gt;&lt;p&gt;- order: int                 // Thứ tự hiển thị của Bài học trong Module&lt;/p&gt;&lt;p&gt;- isPublished: boolean&amp;nbsp;&lt;/p&gt;&lt;p&gt;- materials: List&amp;lt;Material&amp;gt;  // Danh sách các Tài liệu học tập (Material) thuộc Bài học này&lt;/p&gt;&lt;/div&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="1Us1vHDmU4Xr6gR4mbqY-13" vertex="1">
           <mxGeometry y="26" width="490" height="234" as="geometry" />
         </mxCell>
         <mxCell id="1Us1vHDmU4Xr6gR4mbqY-15" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;rounded=1;snapToPoint=1;fixDash=1;backgroundOutline=0;labelBorderColor=none;fontStyle=1" parent="1Us1vHDmU4Xr6gR4mbqY-13" vertex="1">
@@ -288,28 +290,6 @@
         </mxCell>
         <mxCell id="dQhB3wGXNg_IIl-wG8hW-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="vWdL1QEMe_n-aXKPp4n5-2" target="dQhB3wGXNg_IIl-wG8hW-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nuhrAbnSNtK0Gkbpnz-A-1" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;rounded=0;exitX=-0.001;exitY=0.316;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-149.23000000000025" y="-1879.996" as="sourcePoint" />
-            <mxPoint x="-1420" y="-2410" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-378.74" y="-1879.94" />
-              <mxPoint x="-378.74" y="-2410.94" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nuhrAbnSNtK0Gkbpnz-A-3" value="Grade" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="240" width="160" height="86" as="geometry" />
-        </mxCell>
-        <mxCell id="nuhrAbnSNtK0Gkbpnz-A-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nuhrAbnSNtK0Gkbpnz-A-3">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="nuhrAbnSNtK0Gkbpnz-A-5" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="nuhrAbnSNtK0Gkbpnz-A-3">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="nuhrAbnSNtK0Gkbpnz-A-6" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="nuhrAbnSNtK0Gkbpnz-A-3">
-          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
