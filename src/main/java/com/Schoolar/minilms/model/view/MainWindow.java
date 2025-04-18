@@ -1,4 +1,4 @@
-package minilms.model.view;
+package com.Schoolar.minilms.model.view;
 
 
 
