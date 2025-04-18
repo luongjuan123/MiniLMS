@@ -103,6 +103,7 @@ src/
 ---
 
 ## 🤝 Hướng dẫn đóng góp
+### Các bạn có thể dùng *github desktop* cho dễ sử dụng
 
 ### 1. Tạo nhánh mới
 ```bash
@@ -124,6 +125,7 @@ git checkout -b feature/<ten-tinh-nang>
 ```bash
 git push origin feature/<ten-tinh-nang>
 ```
+
 - Tạo pull request vào nhánh `main`, ghi rõ nội dung thay đổi
 
 ---
