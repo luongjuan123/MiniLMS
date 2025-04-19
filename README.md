@@ -85,12 +85,12 @@ src/
 
 1. **Clone dự án**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/luongjuan123/MiniLMS
    ```
 
 2. **Mở trong IntelliJ IDEA**:
    - File > Open > Chọn thư mục dự án
-   - Đảm bảo `src/main/java` được đánh dấu là **Sources Root**
+   - Đảm bảo `src/main/java` được đánh dấu là **Sources Root** có màu xanh dương nếu dùng intelij
 
 3. **Chạy ứng dụng**:
    - Mở `Main.java` tại `com.schoolar.minilms`
@@ -136,25 +136,11 @@ git push origin feature/<ten-tinh-nang>
 - Enum: `Role`, `Gender`, `MaterialType`
 - Entity: `User`, `Course`, `Assignment`, ...
 
-### Giai đoạn 2: Persistence
-- DAO dùng file dùng MySQL
-
-### Giai đoạn 3: Service
-- Thực hiện đăng nhập thực tế
-- Thêm logic quản lý khóa học, bài tập
-
-### Giai đoạn 4: View
-- Hoàn thiện các panel chi tiết
-- Cải thiện UI (icon, hiệu ứng)
-
-### Giai đoạn 5: Tích hợp & Kiểm thử
-- Kiểm tra toàn bộ luồng từ đăng nhập → nộp bài tập
-
----
+### Giai đoạn 2: ???
 
 ## 📬 Liên hệ
 
-- Nhóm phát triển: _Nhóm 13
+- Nhóm phát triển: Nhóm 13 
 - Góp ý/Báo lỗi: Tạo issue trên repository hoặc liên hệ trực tiếp trưởng nhóm
 
 ---
